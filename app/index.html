@@ -28,14 +28,14 @@
     </div>
 <div class="row well">
 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 visible-sm visible-xs">    
-<h2><a href="video_list">{{content.items[3].snippet.title}}</a></h2>
+<h2><a href="video">{{content.items[3].snippet.title}}</a></h2>
 <h4 class="video-list-date"><strong>{{content.items[3].snippet.publishedAt | date : format : longDate}}</strong></h4>
 </div>
 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">    
-<a href="video_list"><img class="img-responsive img-thumbnail"src="{{content.items[3].snippet.thumbnails.high.url}}"></a>
+<a href="video"><img class="img-responsive img-thumbnail"src="{{content.items[3].snippet.thumbnails.high.url}}"></a>
 </div>
 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 hidden-sm hidden-xs">    
-<h2><a href="video_list">{{content.items[3].snippet.title}}</a></h2>
+<h2><a href="video">{{content.items[3].snippet.title}}</a></h2>
 <h4 class="video-list-date"><strong>{{content.items[3].snippet.publishedAt | date : format : longDate}}</strong></h4>
 <h4 class="video-list-desc">{{content.items[3].snippet.description | limitTo : 150 : 0}} ...</h4>    
 </div>
