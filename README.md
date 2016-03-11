@@ -1,7 +1,5 @@
 Beyond Digital Exercise for YouTube API using AngularJS
 
-Thanks to these technologies for making this happen. 
-
 [git]: http://git-scm.com/
 [bower]: http://bower.io
 [npm]: https://www.npmjs.org/
